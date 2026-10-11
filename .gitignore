@@ -1,0 +1,27 @@
+# Node & Dependencies
+node_modules/
+package-lock.json
+
+# WhatsApp Sessions & Auth Credentials (CRITICAL SECURITY)
+src/database/session/
+src/database/jadibot/
+session/
+auth/
+*.session
+
+# Runtime Database & Caches
+database/*.json
+!database/.gitkeep
+tmp/
+temp/
+*.log
+*.tmp
+
+# Inbound temp & media
+webcam.jpg
+inbound_*.jpg
+
+# OS & Environment
+.env
+.DS_Store
+Thumbs.db

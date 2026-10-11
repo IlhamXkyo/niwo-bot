@@ -1,0 +1,61 @@
+{
+  "name": "niwo-bot",
+  "version": "2.2.0",
+  "description": "NIWO BOT: WhatsApp Bot (Owner: ilham)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "postinstall": "node -e \"try{require('fs').writeFileSync('node_modules/libsignal/src/session_record.js',require('fs').readFileSync('node_modules/libsignal/src/session_record.js','utf8').replace(/^.*console\\\\.info.*Closing session.*$/gm,''))}catch(e){}\""
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.1.2",
+    "@hapi/boom": "^10.0.1",
+    "@itsliaaa/baileys": "latest",
+    "@napi-rs/canvas": "^0.1.52",
+    "archiver": "^7.0.1",
+    "awesome-phonenumber": "^6.10.0",
+    "axios": "^1.7.2",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "chokidar": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "figlet": "^1.7.0",
+    "file-type": "^16.5.4",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.0",
+    "gtts": "^0.2.1",
+    "human-readable": "^0.2.1",
+    "js-beautify": "^1.15.1",
+    "jsdom": "^24.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mime-types": "^2.1.35",
+    "moment-timezone": "^0.5.45",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.7.0",
+    "node-os-utils": "^1.3.6",
+    "node-upload-images": "^1.0.1",
+    "node-webpmux": "^3.1.9",
+    "pino": "^9.0.0",
+    "pino-pretty": "^11.2.1",
+    "qrcode": "^1.5.4",
+    "qs": "^6.15.3",
+    "sharp": "^0.33.4",
+    "spinnies": "^0.5.1",
+    "ssh2": "^1.15.0",
+    "uuid": "^10.0.0",
+    "ws": "^8.21.3",
+    "yt-search": "^2.10.4",
+    "ytmusic-api": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "optionalDependencies": {
+    "canvas": "^2.11.2"
+  },
+  "author": "ilham"
+}

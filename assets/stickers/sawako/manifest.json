@@ -1,0 +1,35 @@
+{
+  "name": "Sawako Kuronuma Emotion Stickers",
+  "version": "1.0.0",
+  "categories": {
+    "shy": [
+      "shy_01.webp",
+      "shy_02.webp",
+      "shy_03.webp"
+    ],
+    "happy": [
+      "happy_01.webp",
+      "happy_02.webp",
+      "happy_03.webp"
+    ],
+    "surprise": [
+      "surprise_01.webp",
+      "surprise_02.webp",
+      "surprise_03.webp"
+    ],
+    "sad": [
+      "sad_01.webp",
+      "sad_02.webp",
+      "sad_03.webp"
+    ],
+    "greeting": [
+      "greeting_01.webp",
+      "greeting_02.webp",
+      "greeting_03.webp"
+    ],
+    "default": [
+      "default_01.webp",
+      "default_02.webp"
+    ]
+  }
+}
